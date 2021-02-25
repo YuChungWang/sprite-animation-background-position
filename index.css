@@ -1,0 +1,13 @@
+.sprite-shining {
+  width: 1334px;
+  height: 750px;
+  margin: 0 auto;
+  background: url('https://dlgarenanow-a.akamaihd.net/mgames/kgtw/events/202007TelCgacha/cdn/animation/animation-arrow-light.jpg');
+  animation: shining 0.8s steps(26) infinite;
+}
+
+@keyframes shining {
+  to {
+    background-position: 0 -19500px;
+  }
+}
